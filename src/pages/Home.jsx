@@ -32,7 +32,7 @@ function Home() {
             </motion.p>
 
             <div className="flex flex-col p-0 md:flex-row items-center justify-between md:p-10 mx-4 md:mx-20">
-                {/* Left Side}
+                {/* Left Side*/}
                 <motion.div
                     initial={{ x: -50, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
