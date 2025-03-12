@@ -14,7 +14,7 @@ function Navbar() {
         <nav className="fixed top-0 left-0 w-full bg-white text-black p-4 flex justify-between items-center shadow-md px-[20px] z-50 md:px-16">
             
             {/* Logo (Always Visible) */}
-            <Link to="/" onClick={closeMenu} className="flex-1">
+            <Link to="/" onClick={closeMenu} className="flex-0.3">
                 <img 
                     src="https://communionhub.org/static/media/Logocommunion.0485ada0760e4748313f.png" 
                     alt="Communion Hub Logo" 
